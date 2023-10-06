@@ -22,8 +22,8 @@
   	vii.	config.py - e.g. env vars
    
  	viii.	utils.py - non-business logic functions, e.g. response normalization, data enrichment, etc.
-  
-   ix.	exceptions.py - module specific exceptions, e.g. PostNotFound, InvalidUserData
+     
+     ix.	exceptions.py - module specific exceptions, e.g. PostNotFound, InvalidUserData
   	
 3.	When package requires services or dependencies or constants from other packages - import them with an explicit module name
 
